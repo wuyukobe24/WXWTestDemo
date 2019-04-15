@@ -29,10 +29,10 @@ WXWTestDemo is a test. WXWTestDemo is a test. WXWTestDemo is a test.
 
   s.source       = { :git => "https://github.com/wuyukobe24/WXWTestDemo.git", :tag => "#{s.version}" }
 
-  s.source_files  = "WXWTestDemo", "WXWTestDemo/*.{h,m}"
+  s.source_files  =  'WXWTestDemo/Classes/*.{h,m}'
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "WXWTestDemo/*.h"
+  # s.public_header_files = "WXWTestDemo/Classes/*."
 
 
   # s.resource  = "icon.png"
